@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,14 @@
 <link rel="stylesheet" type="text/css" href="main.css"> <!-- Link to external CSS file -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<style>
+    body {
+        background-image: url("backround.jpeg");
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+    }
+</style>
     
 
     <main>
@@ -17,14 +25,15 @@
             <div class="menu-icon" id="menu-icon">
             </div>
             <ul id="menu">
-                <li><a href="#Introduction">Introduction</a></li>
-                <li><a href="#Experience">Experience</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#Introduction">INTRODUCTION</a></li>
+                <li><a href="#Experience">EXPERIENCE</a></li>
+                <li><a href="#Skills">SKILLS</a></li>
+                <li><a href="#Projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </header>
+    
         <section id="Introduction">
             <span class="image">
                 <img src="pic01.jpg" alt="Profile Picture" />
@@ -32,32 +41,56 @@
             <div class="intro">
                 <h1>Hello, I’m Kamana!</h1>
 			<div>
-			<h2>Introduction:</h2>
-			<div class="info">
-                <p>A bit about me:</p>
-                <p>Obtaining a Bachelor's in Computer Science at Queen's University</p>
-                <p>Consecutively on the Dean's Honours List throughout my academic journey</p>
-                <p>Additional focus in Cybersecurity</p>
+                <div>
+                    <h3 style="color:#35afe8">Your future <span class="typing" style="font-weight: 300; color:hsl(0, 0%, 0%)"></span></h3>
+                </div>
+        </section>
+
+        <section id="info">
+            <h2>Introduction:</h2>
+            <div class="content">
+                <p> &#x2022; Obtaining a Bachelor's in Computer Science at Queen's University<br></p>
+                <p>&#x2022; Consecutively on the Dean's Honours List throughout my academic journey<br></p>
+                <p>&#x2022; Additional focus in Cybersecurity</p>
+                <p>&#x2022; Passionate about creating technology that is both impactful and user-friend</p>
             </div>
         </section>
 
         <section id="Experience">
             <h2>Experience:</h2>
-            <p>Database Administrator:</p>
-            <p>Socials Planner:</p>
+            <h7>Database Administrator @ Summerhill Market: </h7>
+            <div class="Ex1">
+                    • Produced comprehensive and insightful reports utilizing the suite of Microsoft 365 applications
+                <br>•  Maintained and managed the integrity of company data through regular updates and data entry.
+                <br>•  Contributed to the enhancement of the Summerhill Market e-commerce platform through front-end development 
+                    support.
+            </div>
+            
+            <h7>Socials Planner @ Compsa Queen's University:</h7>
+            <div class="Ex2">
+                • Organized and executed social events for the computing society at Queens University.
+                <br>• Conceptualize, plan, and lead engaging activities and events, fostering a sense of within the Computing team.
+            </div>
+
+            <h7>Science Program Instructor @ City of Toronto:</h7>
+            <div class="Ex3">
+                • Organized and planned engaging science lessons
+            <br>• Taught a diverse range of scientific subjects including computer science
+            <br>• Fostered curiosity and a deeper understanding of science among the children in the community
+            </div>
         </section>
 
         <section id="Skills">
             <h2>Skills:</h2>
-			<ul class="skills-list">
-				<li><strong>Programming Languages and Frameworks:</strong> Python, Java, C, HTML, CSS</li>
-				<li><strong>Tools:</strong> Git/GitHub, Linux, Figma, Visual Studio Code, Eclipse, MS Office Suite</li>
-			</ul>
+			<div class="skills-list">
+				<p><strong>Programming Languages and Frameworks:</strong> Python, Java, JavaScript, C, HTML, CSS, 
+				<p><strong>Tools:</strong> Git/GitHub, Linux, Figma, Visual Studio Code, Eclipse, MS Office Suite
+			</div>
         </section>
 
         <section id="Projects">
             <h2>Projects:</h2>
-            <p>Details about projects.</p>
+            <p>Coming soon...</p>
         </section>
 		<section id="contact">
 			<h2>Contact:</h2>
@@ -75,8 +108,9 @@
 				<!-- Submit button -->
 				<button type="submit">Send</button>
 			</form>
-		
-			<p>Other ways to stay in touch:</p>
+        </section>
+		<section id="stayintouch">
+			<h3>Leaving Already? Lets stay in touch!</h3>
 			<ul class="social-icons">
 				<li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/kamanachapagain" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
 				<li><a class="github" aria-label="GitHub" href="https://github.com/Kamana5" target="_blank"><i class="fab fa-github"></i></a></li>
@@ -85,6 +119,7 @@
 		</section>
 
     </main>
+    
 
     <footer>
         <p>&copy; 2024 Kamana Chapagain. All rights reserved.</p>
